@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>990008882800-jqo2ca0n385f81prg0fd71bpu5sprrhd.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.990008882800-jqo2ca0n385f81prg0fd71bpu5sprrhd</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCddcfhUDYO2ljIhowITgxqMz1AlLRv_5U</string>
+	<key>GCM_SENDER_ID</key>
+	<string>990008882800</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.reactjs.native.example.LocalMainStreet</string>
+	<key>PROJECT_ID</key>
+	<string>localmainstreet-b0144</string>
+	<key>STORAGE_BUCKET</key>
+	<string>localmainstreet-b0144.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:990008882800:ios:be10edaadbb739b559a6b5</string>
+	<key>DATABASE_URL</key>
+	<string>https://localmainstreet-b0144.firebaseio.com</string>
+</dict>
+</plist>

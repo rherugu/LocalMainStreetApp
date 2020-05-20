@@ -1,0 +1,44 @@
+[debug] [2020-05-07T16:30:16.813Z] ----------------------------------------------------------------------
+[debug] [2020-05-07T16:30:16.815Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2020-05-07T16:30:16.815Z] CLI Version:   8.2.0
+[debug] [2020-05-07T16:30:16.815Z] Platform:      darwin
+[debug] [2020-05-07T16:30:16.815Z] Node Version:  v12.13.1
+[debug] [2020-05-07T16:30:16.816Z] Time:          Thu May 07 2020 12:30:16 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-05-07T16:30:16.816Z] ----------------------------------------------------------------------
+[debug] [2020-05-07T16:30:16.816Z] 
+[debug] [2020-05-07T16:30:16.872Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-05-07T16:30:16.872Z] > authorizing via signed-in user
+[debug] [2020-05-07T16:30:16.873Z] [iam] checking project localmainstreet-b0144 for permissions ["firebase.projects.get"]
+[debug] [2020-05-07T16:30:16.874Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-05-07T16:30:16.874Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-05-07T16:30:17.068Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 07 May 2020 16:29:04 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-05-07T16:30:17.171Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/localmainstreet-b0144:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-05-07T16:30:17.547Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 07 May 2020 16:29:05 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=163","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-05-07T16:30:17.548Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/localmainstreet-b0144  
+ 
+[debug] [2020-05-07T16:30:18.017Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 07 May 2020 16:29:05 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Serving from '/Users/vaibhavherugu/LocalMainStreet'...
+[info] 
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "12"
+[info] ✔  functions: functions emulator started at http://localhost:5000
+[info] i  functions: Watching "/Users/vaibhavherugu/LocalMainStreet/functions" for Cloud Functions...
+[debug] [2020-05-07T16:30:18.084Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-05-07T16:30:18.085Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
+[debug] [2020-05-07T16:30:18.085Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-05-07T16:30:18.085Z] [worker-~diagnostic~-f7d55e60-a7e0-49a0-bee1-1fc81219901b]: Assigning socketPath: /var/folders/zz/5sqr5d257db57ws4v_zfjw200000gn/T/fire_emu_88911.sock 
+[debug] [2020-05-07T16:30:18.085Z] [worker-~diagnostic~-f7d55e60-a7e0-49a0-bee1-1fc81219901b]: BUSY 
+[debug] [2020-05-07T16:30:18.369Z] [runtime-status] [88911] Functions runtime initialized. {"cwd":"/Users/vaibhavherugu/LocalMainStreet/functions","node_version":"12.13.1"} 
+[debug] [2020-05-07T16:30:18.370Z] [runtime-status] [88911] Disabled runtime features: undefined 
+[debug] [2020-05-07T16:30:18.419Z] [runtime-status] [88911] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.11.0","resolution":"/Users/vaibhavherugu/LocalMainStreet/functions/node_modules/firebase-admin/lib/index.js"} 
+[debug] [2020-05-07T16:30:18.436Z] [runtime-status] [88911] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"/Users/vaibhavherugu/LocalMainStreet/functions/node_modules/firebase-functions/lib/index.js"} 
+[debug] [2020-05-07T16:30:18.437Z] [runtime-status] [88911] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
+[debug] [2020-05-07T16:30:19.176Z] [runtime-status] [88911] Checked functions.config() {"config":{}} 
+[debug] [2020-05-07T16:30:19.177Z] [runtime-status] [88911] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"/Users/vaibhavherugu/LocalMainStreet/functions/node_modules/firebase-functions/lib/index.js"} 
+[debug] [2020-05-07T16:30:19.178Z] [runtime-status] [88911] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.11.0","resolution":"/Users/vaibhavherugu/LocalMainStreet/functions/node_modules/firebase-admin/lib/index.js"} 
+[debug] [2020-05-07T16:30:19.178Z] [runtime-status] [88911] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"/Users/vaibhavherugu/LocalMainStreet/functions/node_modules/firebase-functions/lib/index.js"} 
+[debug] [2020-05-07T16:30:19.178Z] [runtime-status] [88911] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.11.0","resolution":"/Users/vaibhavherugu/LocalMainStreet/functions/node_modules/firebase-admin/lib/index.js"}} 
+[info] ✔  functions[completePaymentWithStripe]: http function initialized (http://localhost:5000/localmainstreet-b0144/us-central1/completePaymentWithStripe).
+[debug] [2020-05-07T16:30:19.551Z] [worker-~diagnostic~-f7d55e60-a7e0-49a0-bee1-1fc81219901b]: IDLE 
